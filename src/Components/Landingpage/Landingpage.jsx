@@ -1,6 +1,7 @@
 import React from "react";
 import { Vortex } from "./Vortex";
 import Navbar from "../Navbar/Navbar";
+import './Landingpage.css'
 
 export function Landingpage() {
     function Resume() {
@@ -8,7 +9,7 @@ export function Landingpage() {
     }
     return (
         (<div
-            className="w-full mx-auto  h-screen overflow-hidden relative">
+            className="w-full mx-auto  h-screen overflow-hidden relative landingpage">
             <Vortex
                 backgroundColor="black"
                 rangeY={800}
