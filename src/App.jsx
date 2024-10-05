@@ -1,10 +1,11 @@
 import { Landingpage } from "./Components/Landingpage/Landingpage"
+import Routing from "./Routes/Routing"
 
 function App() {
 
   return (
     <>
-      <Landingpage/>
+      <Routing/>
     </>
   )
 }
