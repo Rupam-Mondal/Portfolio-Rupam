@@ -7,6 +7,29 @@ import project6 from '../../assets/Projectimages/Project6.jpg';
 import { PinContainer } from '../3dcard/Floatingcard';
 
 function Projects() {
+    function Handler1(){
+        window.open("https://github.com/Rupam-Mondal/Sign-Detection-Project")
+    }
+
+    function Handler2() {
+        window.open("https://coingecko-chi.vercel.app/")
+    }
+
+    function Handler3() {
+        window.open("https://hangman-game-beta-navy.vercel.app/")
+    }
+
+    function Handler4() {
+        window.open("https://rupam-mondal.github.io/Tier-List/")
+    }
+
+    function Handler5() {
+        window.open("https://weather-app-phi-seven-95.vercel.app/")
+    }
+
+    function Handler6() {
+        window.open("https://rupam-mondal.github.io/Snake-Game-JS/")
+    }
     return (
         <>
             <div className="w-full bg-[#020617] p-10 flex flex-col gap-36" id="projects">
@@ -21,7 +44,7 @@ function Projects() {
                             title="https://github.com/Rupam-Mondal/Sign-Detection-Project"
                             href="https://github.com/Rupam-Mondal/Sign-Detection-Project"
                         >
-                            <div className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
+                            <div onClick={Handler1} className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
                                 <h3 className="max-w-xs pb-2 m-0 font-bold text-2xl text-white">
                                     Signlanguage Detection
                                 </h3>
@@ -40,7 +63,7 @@ function Projects() {
                             title="https://coingecko-chi.vercel.app/"
                             href="https://coingecko-chi.vercel.app/"
                         >
-                            <div className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
+                            <div onClick={Handler2} className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
                                 <h3 className="max-w-xs pb-2 m-0 font-bold text-2xl text-white">
                                     Coingecko Website
                                 </h3>
@@ -59,7 +82,7 @@ function Projects() {
                             title="https://hangman-game-beta-navy.vercel.app/"
                             href="https://hangman-game-beta-navy.vercel.app/"
                         >
-                            <div className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
+                            <div onClick={Handler3} className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
                                 <h3 className="max-w-xs pb-2 m-0 font-bold text-3xl text-white">
                                     Hangman Game
                                 </h3>
@@ -83,7 +106,7 @@ function Projects() {
                             title="https://rupam-mondal.github.io/Tier-List/"
                             href="https://rupam-mondal.github.io/Tier-List/"
                         >
-                            <div className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
+                            <div onClick={Handler4} className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
                                 <h3 className="max-w-xs pb-2 m-0 font-bold text-3xl text-white">
                                     Tier List Maker
                                 </h3>
@@ -102,7 +125,7 @@ function Projects() {
                             title="https://weather-app-phi-seven-95.vercel.app/"
                             href="https://weather-app-phi-seven-95.vercel.app/"
                         >
-                            <div className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
+                            <div onClick={Handler5} className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
                                 <h3 className="max-w-xs pb-2 m-0 font-bold text-3xl text-white">
                                     Weather Application
                                 </h3>
@@ -121,7 +144,7 @@ function Projects() {
                             title="https://rupam-mondal.github.io/Snake-Game-JS/"
                             href="https://rupam-mondal.github.io/Snake-Game-JS/"
                         >
-                            <div className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
+                            <div onClick={Handler6} className="flex flex-col p-4 tracking-tight text-slate-100/50 w-[23rem] h-[26rem] ">
                                 <h3 className="max-w-xs pb-2 m-0 font-bold text-3xl text-white">
                                     Snake Game
                                 </h3>
