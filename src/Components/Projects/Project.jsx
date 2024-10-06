@@ -9,7 +9,7 @@ import { PinContainer } from '../3dcard/Floatingcard'
 function Projects(){
     return (
         <>
-            <div className="w-full bg-black p-10 flex flex-col gap-36">
+            <div className="w-full bg-[#020617] p-10 flex flex-col gap-36" id="projects">
                 <h1 className="text-center text-6xl font-extrabold text-white  decoration-4">
                     My Project Showcase
                 </h1>

@@ -6,8 +6,8 @@ function Home(){
     return (
         <>
             <Landingpage />
+            <About />
             <Projects/>
-            <About/>
         </>
     )
 }

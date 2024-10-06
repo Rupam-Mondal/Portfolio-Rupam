@@ -11,7 +11,7 @@ export function Landingpage() {
         (<div
             className="w-full mx-auto  h-screen overflow-hidden relative landingpage">
             <Vortex
-                backgroundColor="black"
+                backgroundColor="#020617"
                 rangeY={800}
                 particleCount={500}
                 baseHue={120}
