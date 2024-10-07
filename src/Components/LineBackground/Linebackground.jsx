@@ -80,6 +80,8 @@ const SVG = ({
     ];
     return (
         (<motion.svg
+            height="100%"
+            width="100%"
             viewBox="0 0 1440 900"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

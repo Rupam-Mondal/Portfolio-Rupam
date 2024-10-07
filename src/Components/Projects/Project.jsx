@@ -160,6 +160,8 @@ function Projects() {
                         </PinContainer>
                     </div>
                 </div>
+
+                <div className='w-full'></div>
             </div>
 
             {/* Custom Styles */}
