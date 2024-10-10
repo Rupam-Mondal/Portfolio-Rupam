@@ -18,6 +18,18 @@ function Navbar() {
         }
     };
 
+    function socialopen(i){
+        if(i == 0){
+            window.open('https://www.linkedin.com/in/rupam-mondal-37b653252/')
+        }
+        else if(i == 1){
+            window.open('https://github.com/Rupam-Mondal')
+        }
+        else if(i == 2){
+            window.open('https://x.com/Rupammondal123')
+        }
+    }
+
     function allscroll(i){
         if(i == 1){
             scrollToAbout();
@@ -42,7 +54,7 @@ function Navbar() {
                     <SiGithub color="black" size={25} />,
                     <FaTwitter color="skyblue" size={25} />,
                     <FaPinterest color="red" size={25} />].map((v, i) => (
-                        <div key={i} className="cursor-pointer">{v}</div>
+                        <div key={i} className="cursor-pointer" onClick={() => { socialopen(i)}}>{v}</div>
                     ))}
                 </div>
                 <div className="hidden md:flex h-12 w-12 cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black text-white font-semibold justify-center items-center rounded-full text-lg">
