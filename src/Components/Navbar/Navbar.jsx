@@ -42,13 +42,14 @@ function Navbar() {
     return (
         <div className="absolute top-3 sm:top-8 z-10">
             <div className="sm:w-full h-10 w-[90vw] m-0 p-0 sm:h-[65px] flex relative bg-gray-800 rounded-3xl">
-                <div className="flex h-full w-full items-center gap-10 justify-center px-28 sm:px-10 md:px-28">
+                <div className="flex h-full w-full items-center gap-4 sm:gap-6 md:gap-10 justify-center sm:px-10 md:px-28">
                     {["Home", "About", "Projects"].map((v, i) => (
-                        <div key={i} className="text-lg font-medium cursor-pointer text-white" onClick={() => {allscroll(i)}}>
+                        <div key={i} className="text-lg font-medium cursor-pointer text-white " onClick={() => { allscroll(i) }}>
                             {v}
                         </div>
                     ))}
                 </div>
+
                 <div className="hidden md:flex h-full w-1/2 gap-6 items-center justify-end px-28">
                     {[<FaLinkedin color="#67A7EB" size={25} />,
                     <SiGithub color="black" size={25} />,
